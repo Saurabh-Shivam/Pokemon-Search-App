@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokémon Search App</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1>Pokémon Search App</h1>
+      <div class="cardContainer">
+        <h3>Search for Pokémon Name or ID:</h3>
+        <div class="input-wrapper">
+          <input type="text" name="" id="search-input" required />
+          <button id="search-button" type="submit">Search</button>
+        </div>
+        <div class="pokeInfoContainer">
+          <div class="nameContainer">
+            <p id="pokemon-name"></p>
+            <p id="pokemon-id"></p>
+          </div>
+          <div class="weight-heightContainer">
+            <p id="weight"></p>
+            <p id="height"></p>
+          </div>
+          <div class="imgContainer">
+            <img src="" alt="" id="sprite" loading="lazy" />
+          </div>
+            <div id="types" class="typeContainer"></div>
+
+        </div>
+        <div class="statsContainer">
+          <div class="stats-wrapper">
+            <h4 class="stats">Base</h4>
+            <p class="stats">HP:</p>
+            <p class="stats">Attack:</p>
+            <p class="stats">Defense:</p>
+            <p class="stats">Sp. Attack:</p>
+            <p class="stats">Sp. Defense:</p>
+            <p class="stats">Speed:</p>
+          </div>
+          <div class="stats-wrapper">
+            <h4 class="stats">Stats</h4>
+            <p class="stats" id="hp"></p>
+            <p class="stats" id="attack"></p>
+            <p class="stats" id="defense"></p>
+            <p class="stats" id="special-attack"></p>
+            <p class="stats" id="special-defense"></p>
+            <p class="stats" id="speed"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
